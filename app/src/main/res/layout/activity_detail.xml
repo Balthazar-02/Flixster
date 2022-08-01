@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity"
+    android:background="@drawable/back_2"
     android:orientation="vertical">
 
     <com.google.android.youtube.player.YouTubePlayerView
@@ -18,6 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textAppearance="@style/MaterialAlertDialog.Material3.Title.Text"
         tools:text="Thor: Love and Thunder"
         android:textStyle="bold"/>
 
@@ -29,6 +32,7 @@
         android:isIndicator="true"
         android:numStars="10"
         android:rating="4.5"
+        android:background="#461E88E5"
         android:stepSize="0.5" />
 
     <TextView
@@ -36,5 +40,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="none"
+        android:textColor="@color/black"
         tools:text="After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late." />
 </LinearLayout>
